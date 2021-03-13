@@ -1,0 +1,44 @@
+html{
+    background-color:#F5F5F5;
+  }
+  h2{
+    display: flex;
+    justify-content: center;
+    margin-bottom:40px;
+  }
+  .level{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .square{
+    width:130px;
+    height:220px;
+    border:4px solid white;
+    margin:0px 10px;
+    position:relative;
+  }
+  .big1{
+    background-color:tomato;
+  }
+  .big2{
+    background-color: teal; 
+  }
+  .big3{
+    background-color: burlywood;
+  }
+  .big4{
+    background-color: thistle;
+  }
+  .text{
+    background-color:white;
+    position:absolute;
+    width:100%;
+    top:30px;
+  }
+  h4{
+    margin:10px 0px;
+  }
+  h5{
+    margin:10px 0px;
+  }

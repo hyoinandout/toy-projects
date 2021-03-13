@@ -1,0 +1,225 @@
+* {
+    box-sizing: border-box;
+  }
+
+  body{
+    width:340px;
+    height:769px;
+    border: 1px solid black;
+  }
+  section{
+    overflow-x:hidden;
+  }
+
+  .status-bar{
+    background-color: #FFCE33;
+    height:80px;
+    width:100%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    padding:0px 8px;
+  }
+
+  .fa-bars{
+      width:33%;
+  }
+
+  .status-bar span{
+      width:34%;
+      display: flex;
+      justify-content: center;
+      font-size:20px;
+      font-weight: 600;
+  }
+
+  .fa-shopping-basket{
+      width:33%;
+      position:relative;
+      left:78px;
+  }
+  
+  .complementary{
+      background-color: #FFCE33;
+      height:20px;
+  }
+
+  .for-pos-abs{
+      position:absolute;
+      display:flex;
+      width:340px;
+      justify-content: center;
+      align-items: center;
+  }
+  .search{
+      background-color: white;
+      width:270px;
+      height:50px;
+      border-radius:10px;
+      position:relative;
+      display:flex;
+      justify-content: space-between;
+      align-items: center;
+      padding:0px 10px;
+      border-bottom: 1px solid rgba(0,0,0,0.1);
+      top:-30px;
+  }
+
+  .search span{
+      opacity:0.3;
+  }
+
+  .fa-search{
+      opacity:0.3;
+  }
+
+  .title{
+      margin: 50px 0px 20px 15px;
+      font-size:18px;
+      font-weight: 600;
+  }
+
+
+  .Book-of-the-day{
+      display:flex;
+
+  }
+  .Book-of-the-day img{
+      height: 140px;
+      width: 90px;
+      border-radius:10px;
+      margin-left: 15px;
+  }
+
+  .Book-of-the-day__info{
+      margin-left: 15px;
+      width:100%;
+  }
+
+  .Book-of-the-day__info__booktitle, .Top-Adventures__title, .Popular-authors__title{
+      font-weight: 600;
+      font-size: 18px;
+      margin-bottom:10px;
+  }
+
+  .Book-of-the-day__info__bookauthor{
+      opacity: 0.4;
+      font-size: 14px;
+      margin-bottom:10px;
+  }
+
+  .Book-of-the-day__info__stars{
+      color:#FFD03E;
+      height:9px;
+      margin-bottom:15px;
+  }
+
+  .fa-star:last-child{
+      color:gray;
+      opacity: 0.6;
+  }
+
+  .Book-of-the-day__info__sort{
+      display: flex;
+      justify-content: space-between;
+      margin-right:40px;
+  }
+
+  .Book-of-the-day__info__sort__btns{
+      background-color: rgba(0,0,0,0.05);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width:80px;
+      height: 25px;
+      border-radius: 10px;
+      font-weight: 400;
+      margin-bottom: 10px;
+      font-size:13px;
+  }
+  
+  .Book-of-the-day__info__bottom{
+      display: flex;
+      justify-content: space-between;
+      margin:0px 40px 10px 10px;
+  }
+
+  .Book-of-the-day__info__bottom__btns:first-child{
+      background-color: #FFD03E;
+      height:30px;
+      width:30px;
+      border-radius: 15px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .Book-of-the-day__info__bottom__btns:last-child{
+      background-color: black;
+      color:white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width:90px;
+      height:30px;
+      border-radius: 10px;
+      font-size:10px;
+  }
+
+  .Top-Adventures__title{
+      margin:30px 0px 20px 15px;
+  }
+  .Top-Adventures__book-stars{
+      display: flex;
+  }
+
+  .Top-Adventures__book-stars__type{
+    margin: 0px 10px;
+
+  }
+  .Top-Adventures__book-stars__type img{
+      height: 110px;
+      width:100%;
+      border-radius: 10px;
+      margin-bottom: 10px;
+  }
+
+  .Top-Adventures__book-stars__type__stars{
+      display: flex;
+      justify-content: space-evenly;
+  }
+
+  .Top-Adventures__book-stars__type__stars i{
+      color:#FFCE33;
+  }
+
+  .Popular-authors{
+      margin-top: 20px;
+      margin-left:15px;
+      display: flex;
+  }
+
+  .Popular-authors__title{
+    margin-top: 20px;
+    margin-left:15px;
+    margin-bottom: 20px;
+  }
+
+  .Popular-authors img{
+      width:130px;
+      border-radius: 10px;
+      margin-right:20px;
+  }
+
+  .Popular-authors__name{
+      font-weight:600;
+      font-size:17px;
+      margin:10px 0px;
+      color:inherit;
+  }
+
+  .Popular-authors__info{
+      opacity:0.4;
+      font-size:14px;
+      margin-right:5px;
+  }
