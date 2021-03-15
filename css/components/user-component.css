@@ -53,3 +53,6 @@
     display: block;
   }
   
+  .main-screen a{
+    text-decoration: none;
+  }

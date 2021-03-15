@@ -60,4 +60,15 @@
   .nav__btn:last-child {
     animation-delay: 0.8s;
   }
-  
+  .fa-ellipsis-h{
+    position:relative;
+  }
+  .red-dot{
+    width:10px;
+    height:10px;
+    border-radius: 50%;
+    background-color: red;
+    position:absolute;
+    top:-5px;
+    right:-8px;
+  }

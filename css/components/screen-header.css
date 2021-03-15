@@ -28,3 +28,12 @@
     animation: rotateCog 1s linear infinite;
   }
   
+  .screen-header__icons a{
+    position:relative;
+  }
+
+  .red-dot-upper{
+    width:6px;
+    height:6px;
+    border-radius: 3px;
+  }

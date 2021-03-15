@@ -21,9 +21,31 @@
     z-index: 1;
   }
   
-  @keyframes fadeIn {
+  @keyframes fadeInY {
     from {
       transform: translateY(30px);
+      opacity: 0;
+    }
+    to {
+      transform: none;
+      opacity: 1;
+    }
+  }
+
+  @keyframes fadeInX {
+    from {
+      transform: translateX(30px);
+      opacity: 0;
+    }
+    to {
+      transform: none;
+      opacity: 1;
+    }
+  }
+
+  @keyframes fadeInXm {
+    from {
+      transform: translateX(-30px);
       opacity: 0;
     }
     to {
@@ -37,7 +59,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    animation: fadeIn 0.8s linear;
   }
   
   .chat__timestamp {
@@ -47,12 +68,14 @@
     font-size: 14px;
     border-radius: 25px;
     margin-bottom: 25px;
+    animation: fadeInY 0.8s linear;
   }
   
   .message-row {
     width: 100%;
     display: flex;
     margin-bottom: 25px;
+    animation: fadeInXm 0.8s linear;
   }
   
   .message-row img {
@@ -89,6 +112,7 @@
   
   .message-row--own {
     justify-content: flex-end;
+    animation: fadeInX 0.8s linear;
   }
   
   .message-row--own .message__bubble {
