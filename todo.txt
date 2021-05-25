@@ -1,1 +1,2 @@
 Parrot is my final project
+you may take reference on sound or minim library
